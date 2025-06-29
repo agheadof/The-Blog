@@ -34,7 +34,7 @@ const Blog = () => {
       <div className="laptop:col-span-2 tablet:order-2 order-1 col-span-1">
         <Outlet />
       </div>
-      <div className="order-3 col-span-2 col-start-2">
+      <div className="laptop:col-span-2 tablet:col-start-2 order-3 col-span-1">
         <NewsLetterSection />
       </div>
     </div>

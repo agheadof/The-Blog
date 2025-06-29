@@ -1,23 +1,23 @@
 import type { Post } from '../interfaces/postsInterface'
-import gridSystemCover from '../assets/img/posts/Grid-system-cover.jpg'
-import gridStructur from '../assets/img/posts/common-grid-structure.png'
-import gridParts from '../assets/img/posts/grid-parts.png'
-import nyt from '../assets/img/posts/nyt-example.png'
-import ritual from '../assets/img/posts/ritual-ex.png'
-import behance from '../assets/img/posts/behance-ex.png'
-import shrine from '../assets/img/posts/shrine-ex.png'
-import figma from '../assets/img/posts/grids-in-figma.png'
-import responsive from '../assets/img/posts/responsive-ex.png'
-import gutters from '../assets/img/posts/content-not-in-gutters.png'
-import apiStack from '../assets/img/posts/Api stack.jpg'
-import linear101 from '../assets/img/posts/Linear 101.jpg'
-import uxReview from '../assets/img/posts/ux-review.jpg'
-import billWalsh from '../assets/img/posts/Bill Walsh.jpg'
-import collaboration from '../assets/img/posts/Collaboration.jpg'
-import pm from '../assets/img/posts/PM.jpg'
-import Podcast from '../assets/img/posts/Podcast.jpg'
-import top10 from '../assets/img/posts/top-10 js fw.jpg'
-import wireframing from '../assets/img/posts/wireframing.jpg'
+import gridSystemCover from '../assets/img/posts/Grid-system-cover.webp'
+import gridStructur from '../assets/img/posts/common-grid-structure.webp'
+import gridParts from '../assets/img/posts/grid-parts.webp'
+import nyt from '../assets/img/posts/nyt-example.webp'
+import ritual from '../assets/img/posts/ritual-ex.webp'
+import behance from '../assets/img/posts/behance-ex.webp'
+import shrine from '../assets/img/posts/shrine-ex.webp'
+import figma from '../assets/img/posts/grids-in-figma.webp'
+import responsive from '../assets/img/posts/responsive-ex.webp'
+import gutters from '../assets/img/posts/content-not-in-gutters.webp'
+import apiStack from '../assets/img/posts/Api stack.webp'
+import linear101 from '../assets/img/posts/Linear 101.webp'
+import uxReview from '../assets/img/posts/ux-review.webp'
+import billWalsh from '../assets/img/posts/Bill Walsh.webp'
+import collaboration from '../assets/img/posts/Collaboration.webp'
+import pm from '../assets/img/posts/PM.webp'
+import Podcast from '../assets/img/posts/Podcast.webp'
+import top10 from '../assets/img/posts/top-10 js fw.webp'
+import wireframing from '../assets/img/posts/wireframing.webp'
 
 export const allPosts: Post[] = [
   {
@@ -241,8 +241,7 @@ export const allPosts: Post[] = [
       {
         type: 'img',
         content: 'Intro visual related to the topic',
-        imageUrl:
-          'https://www.google.com/url?sa=i&url=https%3A%2F%2Fsolguruz.com%2Fblog%2Fui-ux-design-trends%2F&psig=AOvVaw2qc3yA95YBgnw0JmKBwd1D&ust=1751013367320000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDv7azXjo4DFQAAAAAdAAAAABAX',
+        imageUrl: 'https://picsum.photos/800/400',
       },
       {
         type: 'p',
