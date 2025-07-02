@@ -1,3 +1,5 @@
+import { memo } from 'react'
+
 const NewsLetterSection = () => {
   return (
     <div className="flex flex-col py-8 text-center">
@@ -25,4 +27,4 @@ const NewsLetterSection = () => {
   )
 }
 
-export default NewsLetterSection
+export default memo(NewsLetterSection)
