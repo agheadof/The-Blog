@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <div>
-      <p className="laptop:text-[243.8px] tablet:text-[160px] border-y-2 border-[#00000057] text-center text-7xl font-bold dark:border-white">
+      <p className="laptop:text-[243.8px] tablet:text-[160px] border-y-2 border-[#00000057] text-center text-7xl font-bold transition-all duration-1000 ease-in-out hover:p-5 hover:text-shadow-[0_0_40px_#01010173] dark:border-white dark:hover:text-shadow-[0_0_40px_#FFFFFF73]">
         THE BLOG
       </p>
       <div className="pt-8">

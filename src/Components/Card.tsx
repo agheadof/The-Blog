@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom'
 import lightArrow from '../assets/img/arrowUpRight.svg'
 import darkArrow from '../assets/img/darkArrowUpRight.svg'
 import { useTagColorClass, useTheme } from '../Hooks/hooks'
-import { memo } from 'react'
 
 interface Card {
   id: string
@@ -89,4 +88,4 @@ const Card = ({
   )
 }
 
-export default memo(Card)
+export default Card
