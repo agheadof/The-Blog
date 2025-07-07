@@ -15,7 +15,7 @@ const App = () => {
         <Navbar
           name="Aghyad Fanous"
           items={[
-            { link: '/blog', content: 'Blog' },
+            { link: '/', content: 'Blog' },
             { link: '/projects', content: 'Projects' },
             { link: '/about', content: 'About' },
             { link: '/newsletter', content: 'NewsLetter' },

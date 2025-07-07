@@ -69,17 +69,18 @@ const Card = ({
               </p>
             </div>
             <div className="mt-auto flex gap-2">
-              {tags.map((item, index) => {
-                const tag = tagColor(item)
-                return (
-                  <div
-                    key={index}
-                    className={`rounded-2xl px-2.5 py-0.5 text-sm ${tag.bg} ${tag.text}`}
-                  >
-                    {item}
-                  </div>
-                )
-              })}
+              {tags &&
+                tags.map((item, index) => {
+                  const tag = tagColor(item)
+                  return (
+                    <div
+                      key={index}
+                      className={`rounded-2xl px-2.5 py-0.5 text-sm ${tag.bg} ${tag.text}`}
+                    >
+                      {item}
+                    </div>
+                  )
+                })}
             </div>
           </div>
         </div>

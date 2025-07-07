@@ -57,28 +57,28 @@ const Home = () => {
             </div>
             <div className="laptop:col-span-2 laptop:flex hidden">
               <Card
-                id={recentPostCards[3].id}
-                key={recentPostCards[3].id}
-                author={recentPostCards[3].author}
-                brief={recentPostCards[3].brief}
-                cover={recentPostCards[3].coverImage}
-                date={recentPostCards[3].date}
-                title={recentPostCards[3].title}
-                tags={recentPostCards[3].tags}
+                id={recentPostCards[3]?.id}
+                key={recentPostCards[3]?.id}
+                author={recentPostCards[3]?.author}
+                brief={recentPostCards[3]?.brief}
+                cover={recentPostCards[3]?.coverImage}
+                date={recentPostCards[3]?.date}
+                title={recentPostCards[3]?.title}
+                tags={recentPostCards[3]?.tags}
                 col={2}
                 aspectClass={'laptop:aspect-[2.4]'}
               />
             </div>
             <div className="laptop:hidden col-span-full">
               <Card
-                id={recentPostCards[3].id}
-                key={recentPostCards[3].id}
-                author={recentPostCards[3].author}
-                brief={recentPostCards[3].brief}
-                cover={recentPostCards[3].coverImage}
-                date={recentPostCards[3].date}
-                title={recentPostCards[3].title}
-                tags={recentPostCards[3].tags}
+                id={recentPostCards[3]?.id}
+                key={recentPostCards[3]?.id}
+                author={recentPostCards[3]?.author}
+                brief={recentPostCards[3]?.brief}
+                cover={recentPostCards[3]?.coverImage}
+                date={recentPostCards[3]?.date}
+                title={recentPostCards[3]?.title}
+                tags={recentPostCards[3]?.tags}
                 col={1}
                 aspectClass={'tablet:aspect-[3.377]'}
               />
